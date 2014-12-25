@@ -23,6 +23,11 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- JQUERY
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -32,6 +37,9 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="loader">
+  </div>
+  
   <div class="tint">
   
 
@@ -75,8 +83,13 @@
   </div>
   
 
-
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script>
+      $(window).load(function() {
+        $(".loader").fadeOut("slow");
+      })
+  </script>
 </body>
 </html>

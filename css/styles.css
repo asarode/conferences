@@ -6,6 +6,13 @@ body {
 	color: #454545;
 }
 
+.loader {
+	height: 100vh;
+	wifth: 100vw;
+	background-color: rgba(0,216,151,1);
+	position: absolute;
+}	
+
 .tint {
 
 	height: 100vh;
