@@ -78,6 +78,7 @@ input[type="text"] {
 
 input[type="text"] {
 	width: 270px;
+	transition: box-shadow 250ms ease-in-out;
 	
 }
 
