@@ -179,16 +179,21 @@ input[type="submit"]:focus:active {
 	}
 
 	input[type="submit"]:hover {
-		color: #fff;
+		/*color: #fff;
 		background-color: rgba(0,216,151,1);
 		border-color: rgba(0,200,151,1);
 		transition: 250ms ease-in-out;
-		transition-property: color, background-color, border-color;
+		transition-property: color, background-color, border-color;*/
+		transition: none;
+		color: rgba(0,230,140,1);
+		background: #fff;
+		border-color: rgba(0,230,140,1);
 	}
 
 	input[type="submit"]:focus,
 	input[type="submit"]:active,
 	input[type="submit"]:focus:active {
+		transition: none;
 		outline: none;
 		background: linear-gradient(to bottom, rgba(0,230,151,1) 0%, rgba(0,216,151,1) 100%);
 		color: #fff;
