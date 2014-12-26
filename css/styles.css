@@ -179,15 +179,11 @@ input[type="submit"]:focus:active {
 	}
 
 	input[type="submit"]:hover {
-		/*color: #fff;
+		color: #fff;
 		background-color: rgba(0,216,151,1);
 		border-color: rgba(0,200,151,1);
 		transition: 250ms ease-in-out;
-		transition-property: color, background-color, border-color;*/
-		transition: none;
-		color: rgba(0,230,140,1);
-		background: #fff;
-		border-color: rgba(0,230,140,1);
+		transition-property: color, background-color, border-color;
 	}
 
 	input[type="submit"]:focus,
