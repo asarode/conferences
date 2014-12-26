@@ -73,7 +73,7 @@ input[type="text"] {
 	border-radius: 3px;
 	font-size: 16px;
 	padding: 7px 16px;
-	background: none;
+	background: #fff;
 }
 
 input[type="text"] {
