@@ -7,7 +7,7 @@ body {
 }
 
 .tint {
-
+	
 	height: 100vh;
 	width: 100vw;
 	background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,111,85,0.4) 50%, rgba(0,0,0,0.8) 100%);
@@ -20,6 +20,7 @@ body {
 	margin-bottom: 5vh;
 	height: 90vh;
 	min-height: 520px;
+	max-height: 620px;
 	border-radius: 3px;
 
 	background-image: url(../img/panel_background.png);
@@ -109,8 +110,6 @@ input[type="text"]:focus:active {
 }
  
 input[type="submit"] {
-	/*background: rgba(77,232,183,1);
-	background: linear-gradient(45deg, rgba(216,255,243,1) 0%, rgba(191,255,236,1) 100%);*/
 	border-width: 2px;
 	border-color: #F66262;
 	color: #F66262;
