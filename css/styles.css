@@ -1,6 +1,6 @@
 body {
 	position: relative;
-	background-image: url(../img/background_static.png);
+	background-image: url(../img/background.png);
 	background-size: auto 100vh;
 	font-family: "Bitter";
 	color: #454545;
@@ -24,6 +24,20 @@ body {
 	border-radius: 3px;
 
 	background-image: url(../img/panel_background.png);
+}
+
+.credits {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	color: #fff;
+	opacity: 0.3;
+	border: none;
+	font-size: 10px;
+}
+
+.credits:hover {
+	color: #F66262;
 }
 
 
